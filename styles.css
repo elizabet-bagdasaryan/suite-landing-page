@@ -1,0 +1,300 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Epilogue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to top,
+    #f3ede7 0%,
+    #f3ede7 30%,
+    #faf8f6 30%,
+    #faf8f6 100%
+  );
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #172339;
+  padding: 30px;
+}
+
+.header p {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.header button {
+  border-color: #172339;
+  height: 42px;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #faf8f6;
+  margin-top: 30px;
+}
+.solution-txt {
+  padding: 30px;
+  margin: auto;
+}
+#h2 {
+  color: #172339;
+  font-size: 38px;
+  width: 340px;
+  line-height: 36px;
+}
+.solution-txt p {
+  color: #49566d;
+  font-size: 16px;
+  line-height: 28px;
+  width: 320px;
+}
+
+.solution-txt button {
+  background-color: #172339;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 18px 33px;
+  margin-top: 20px;
+}
+
+.solution-txt img {
+  width: 150px;
+  margin: 0 0 -30px 150px;
+}
+
+#phone-img-full {
+  display: none;
+}
+
+#phone-img {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.statistics {
+  text-align: center;
+}
+.statistics h2 {
+  font-size: 48px;
+  color: #172339;
+}
+.statistics p {
+  color: #49566d;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+.jeremy-section {
+  background-color: #172339;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 300px;
+  padding-bottom: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#jeremy {
+  position: absolute;
+}
+#jeremy img {
+  height: 400px;
+  width: 250px;
+  margin-bottom: 750px;
+}
+
+.txt-info {
+  padding: 250px 20px 0 20px;
+  height: 500px;
+}
+
+.jeremys-texts p {
+  color: #f3ede7;
+  width: 250px;
+  margin: auto;
+  line-height: 32px;
+}
+#it-works {
+  font-size: 40px;
+  color: white;
+  padding: 50px 0;
+  margin: auto;
+}
+
+.txt-info h2 {
+  margin-top: 80px;
+}
+
+.footer {
+  padding-top: 70px;
+  text-align: center;
+  background-color: #f3ede7;
+}
+
+.icons i {
+  margin: 20px 8px;
+  height: 25px;
+  width: 25px;
+}
+
+.footer p {
+  color: #49566d;
+  font-size: 15px;
+}
+.footer h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #172339;
+}
+#jeremy-shadow {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .solution-txt {
+    display: flex;
+    position: relative;
+  }
+  #phone-img-full {
+    display: block;
+    height: 420px;
+    width: 350px;
+    margin-left: 100%;
+  }
+  #phone-img {
+    display: none;
+  }
+  #h2 {
+    font-size: 56px;
+
+    line-height: 50px;
+    width: 500px;
+  }
+  .first-txt-area {
+    position: absolute;
+  }
+  .first-txt-area img {
+    margin-left: 220px;
+
+    width: 230px;
+  }
+  .statistics {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  .jeremy-section {
+    margin: 250px 40px 0 40px;
+  }
+
+  .txt-info p {
+    width: 445px;
+  }
+  .footer {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+  }
+  .footer p {
+    margin-top: 50px;
+  }
+  .icons {
+    margin-top: 30px;
+  }
+  #jeremy-no-shadow {
+    display: none;
+  }
+  #jeremy-shadow {
+    display: block;
+  }
+  #jeremy img {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .upper-section-desktop {
+    display: flex;
+  }
+
+  .header {
+    margin: 30px 150px 0 150px;
+  }
+  .solution-txt {
+    margin-left: 150px;
+    margin-right: 0;
+  }
+  #phone-img-full {
+    height: 500px;
+  }
+  .statistics {
+    display: block;
+    text-align: start;
+    margin-left: 470px;
+  }
+  .first-txt-area button:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      135deg,
+      #a060ff 0%,
+      #cb30e3 49.21%,
+      #ffa84e 100%
+    );
+  }
+  .icons i:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  .header button:hover {
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+  }
+  .jeremy-section {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    margin-left: 150px;
+    padding: 50px;
+    margin-top: 250px;
+    justify-content: space-between;
+  }
+  #jeremy img {
+    padding-top: 680px;
+    margin-left: -150px;
+    width: 750px;
+    height: 670px;
+  }
+  .jeremys-texts {
+    width: 250px;
+    text-align: start;
+
+    line-height: 35px;
+  }
+  #half-oval {
+    position: relative;
+    margin-left: 400px;
+    width: 65px;
+    margin-top: -180px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .footer {
+    margin: 0;
+  }
+}
